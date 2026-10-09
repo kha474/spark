@@ -1,6 +1,6 @@
 import './style.css'
 
-document.querySelector('#app').innerHTML = `
+document.querySelector('#app')!.innerHTML = `
   <nav class="navbar">
     <div class="logo">Spark ⚡</div>
     <div class="nav-links">
